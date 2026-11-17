@@ -121,9 +121,10 @@ We explore multiple areas of modern computing and engineering.
 </table>
 
 ---
-
+# Roadmap 
 <img width="1200" height="620" alt="quantumx_labs_animated_roadmap" src="https://github.com/user-attachments/assets/09a966d1-f03d-4bd2-85d3-80c48b324dbd" />
 
+---
 ## What We Build
 
 Our development philosophy focuses on creating practical technology with real-world applications.
