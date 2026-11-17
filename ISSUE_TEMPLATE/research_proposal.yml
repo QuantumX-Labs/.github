@@ -1,0 +1,168 @@
+name: Research Proposal
+description: Propose a new research idea, technical investigation, or experimental initiative.
+title: "[RESEARCH]: "
+labels:
+  - research
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # QuantumX Labs — Research Proposal
+
+        Thank you for your interest in contributing to research and innovation at QuantumX Labs.
+
+        Use this form to propose a research idea, investigate an emerging technology, or suggest an experimental initiative.
+
+        Please provide sufficient technical details to help us evaluate your proposal.
+
+  - type: input
+    id: research_title
+    attributes:
+      label: Research Title
+      description: Provide a concise and descriptive title for your research proposal.
+      placeholder: "e.g. Privacy-Preserving Machine Learning for Distributed Systems"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: research_domain
+    attributes:
+      label: Research Domain
+      description: Select the primary area of your research.
+      options:
+        - Artificial Intelligence and Machine Learning
+        - Generative AI and Autonomous Agents
+        - Cybersecurity and Network Security
+        - Cloud Computing and Distributed Systems
+        - Data Science and Data Engineering
+        - Software Engineering and Architecture
+        - Robotics and Automation
+        - Quantum Computing
+        - Blockchain and Decentralized Systems
+        - Emerging Technologies
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Research Abstract
+      description: Summarize the proposed research and its central idea.
+      placeholder: Explain your research concept...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: Problem Statement
+      description: What specific problem, limitation, or research gap are you trying to address?
+      placeholder: Clearly define the problem...
+    validations:
+      required: true
+
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Research Objectives
+      description: List the primary objectives and expected outcomes.
+      placeholder: |
+        1. Investigate...
+        2. Develop...
+        3. Evaluate...
+    validations:
+      required: true
+
+  - type: textarea
+    id: methodology
+    attributes:
+      label: Proposed Methodology
+      description: Explain your proposed approach, techniques, algorithms, or experimental methods.
+      placeholder: Describe how you plan to conduct the research...
+    validations:
+      required: true
+
+  - type: textarea
+    id: technologies
+    attributes:
+      label: Technologies and Resources
+      description: Mention relevant programming languages, frameworks, libraries, datasets, tools, or infrastructure.
+      placeholder: "e.g. Python, PyTorch, FastAPI, PostgreSQL, Docker..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: novelty
+    attributes:
+      label: Innovation and Research Contribution
+      description: Explain what makes this proposal different from existing approaches.
+      placeholder: Describe the expected novelty or contribution...
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References and Related Work
+      description: Include relevant research papers, publications, documentation, or existing implementations.
+      placeholder: |
+        - Research paper:
+        - DOI or publication link:
+        - GitHub repository:
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected_impact
+    attributes:
+      label: Expected Impact
+      description: Explain the potential technical, scientific, or practical impact of this research.
+      placeholder: Describe the expected impact...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: research_stage
+    attributes:
+      label: Current Research Stage
+      description: What is the current status of this idea?
+      options:
+        - Initial Idea
+        - Literature Review
+        - Research and Analysis
+        - Proof of Concept
+        - Prototype Development
+        - Experimental Evaluation
+        - Existing Research Seeking Collaboration
+    validations:
+      required: true
+
+  - type: dropdown
+    id: collaboration
+    attributes:
+      label: Collaboration Interest
+      description: Are you interested in collaborating on this research?
+      options:
+        - Yes, I would like to collaborate.
+        - I am submitting the idea for consideration only.
+        - Open to future collaboration.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Research Integrity and Confirmation
+      description: Confirm the following before submitting.
+      options:
+        - label: This proposal represents original work or properly attributes existing research.
+          required: true
+        - label: I have provided references wherever applicable.
+          required: true
+        - label: I have not included confidential, private, or unauthorized data.
+          required: true
+        - label: I understand that submitting a proposal does not guarantee acceptance or implementation.
+          required: true
