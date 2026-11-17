@@ -17,6 +17,8 @@
 <img width="600" height="500" alt="quantumx_labs_logo_under_1mb" src="https://github.com/user-attachments/assets/bbb3543b-6a75-476b-905f-070700bb853e" />
 </div>
 
+
+
 ---
 
 ## About QuantumX Labs
@@ -119,6 +121,8 @@ We explore multiple areas of modern computing and engineering.
 </table>
 
 ---
+
+<img width="1200" height="620" alt="quantumx_labs_animated_roadmap" src="https://github.com/user-attachments/assets/09a966d1-f03d-4bd2-85d3-80c48b324dbd" />
 
 ## What We Build
 
