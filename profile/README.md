@@ -236,7 +236,24 @@ QuantumX Labs welcomes developers, engineers, researchers, students, and technol
 We value meaningful contributions, constructive discussions, and responsible engineering.
 
 ---
+---
 
+## Connect With Us
+
+Stay connected with QuantumX Labs and follow our journey through open-source innovation, technology research, engineering, and community-driven development.
+
+Explore our platforms for the latest updates, technical insights, research explorations, and community announcements.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20Us-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/quantumx-labs-in)
+[![X](https://img.shields.io/badge/X-Follow%20Us-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/QuantumXLabsin?s=20)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow%20Us-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/quantumxlabs.in?xtok=MTM2a2ZubjljaGNqaQ==)
+[![Blog](https://img.shields.io/badge/Tech%20Blog-Read%20Articles-8057E7?style=for-the-badge&logo=hashnode&logoColor=white)](https://quantumxlabsopensourceguide.wordpress.com)
+
+</div>
+
+---
 <div align="center">
 
 ## The Future Is an Engineering Challenge.
